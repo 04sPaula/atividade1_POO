@@ -46,5 +46,82 @@ public class Caelum {
         System.out.println("Mesma coisa do i++ ou i--, respectivamente. É mais abreviado que i = i + 1," +
                 " mas eu acredito que o i++ seja mais abreviado e prático. Quanto a ordem do sinal --" +
                 " em relação 1, ele determina se o decremento vai ser antes ou depois do negócio ser feito.");
+
+        //---------------------------------------
+
+        //Questão 1, capítulo 3 do Caelum: Fixação de sintaxe
+//        for (int i = 150; i <= 300; i++) {
+//            System.out.println(i);
+//        }
+
+        //Questão 2, capítulo 3 do Caelum: Fixação de sintaxe
+//        int soma = 0;
+//        for (int i = 1; i <= 1000; i++) {
+//            soma += i;
+//            if (i == 1000) {
+//                System.out.println(soma);
+//            }
+//        }
+
+        //Questão 3, capítulo 3 do Caelum: Fixação de sintaxe
+//        for (int i = 1; i <= 100; i++) {
+//            if (i % 3 == 0) {
+//                System.out.println(i);
+//            }
+//        }
+
+        // Questão 4, capítulo 3 do Caelum: Fixação de sintaxe
+        for (int i = 1; i <= 40; i++) {
+            long resultado = 1;
+            for (int j = 2; j <= i; j++) {
+                resultado *= j;
+            }
+            System.out.println("Fatorial de " + i + " = " + resultado);
+        }
+
+        //Questão 5, capítulo 3 do Caelum: Fixação de sintaxe
+        System.out.println("Int aguenta um range menor de números em comparação ao long," +
+                "então a partir de certo valor ele começa a falhar em armazenar números" +
+                "tão altos.");
+
+        //Questão 6, capítulo 3 do Caelum: fixação de sintaxe
+//        int anterior = 0;
+//        int atual = 1;
+//
+//        System.out.println(anterior);
+//        System.out.println(atual);
+//
+//        while (atual <= 100) {
+//            int proximo = anterior + atual;
+//            System.out.println(proximo);
+//            anterior = atual;
+//            atual = proximo;
+//        }
+
+        //Questão 7, capítulo 3 do Caelum: fixação de sintaxe
+//        int x = 180;
+//        while (x != 1) {
+//            System.out.print(x + " -> ");
+//            if (x % 2 == 0) {
+//                x = x / 2;
+//            } else {
+//                x = 3 * x + 1;
+//            }
+//        }
+//        System.out.println(x);
+
+        //---------------------------------------
+
+        //Questão 1, capítulo 3 do Caelum: Desafios: Fibonacci
+//        int anterior = 0;
+//        int atual = 1;
+//
+//        System.out.println(anterior);
+//        while (atual <= 100) {
+//            System.out.println(atual);
+//            atual = anterior + atual;
+//            anterior = atual - anterior;
+//        }
+
     }
 }
